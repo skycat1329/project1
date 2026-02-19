@@ -1,0 +1,86 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.circle{
+    width: 634px;
+    height: 634px;
+    position: absolute;
+    background-color: #52BDAA;
+    border-radius: 100%;
+    top: -300px;
+    left: -300px;
+    z-index: -1;
+    filter: blur(120px);
+    opacity: 38%;
+}
+.circle2{
+    width: 634px;
+    height: 634px;
+    position: absolute;
+    background-color: #D49A9A;
+    border-radius: 100%;
+    top: -300px;
+    left: 400px;
+    z-index: -1;
+    filter: blur(120px);
+    opacity: 30%;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    
+}
+.nav-items{
+    font-family: 'Arial', sans-serif;
+    color:#A6A6A6;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.nav-items.active{
+    color: black;
+}
+.logo h1{
+    font-family: 'Arial', sans-serif;
+    color:#54BD95;
+    font-size: 35px;
+}
+
+.last {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+.Login{
+     font-family: 'Arial', sans-serif;
+    color:#A6A6A6;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    padding: 10px 0px;
+}
+.Signup{
+        font-family: 'Arial', sans-serif;
+        color:white;
+        background-color: #54BD95;
+        padding: 10px 15px;
+        border-radius: 15px;
+        font-size: 13px;
+        text-decoration: none;
+        transition: 0.3s ease;
+}
+.Signup:hover{
+    background-color: rgb(221, 75, 104);
+}
+.Login:hover{
+    color: black;
+}

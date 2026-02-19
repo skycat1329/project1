@@ -1,0 +1,96 @@
+.text{
+    font-size: 45px;
+    color: #191A15;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.home{
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+}
+.right img{
+ border-radius: 10px;
+
+}
+.Credit-card{
+    width: 146px;
+    height: 188px;
+    background-color: #161C28;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    right: 40px;
+    top: 430px;
+    transform: rotate(15deg);
+    overflow: hidden;
+}
+.Circles{
+    position: relative;
+}
+.Circle1{
+    background-color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.5;
+
+}
+.Circle2{
+    background-color: white;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    margin: 10.3px 0px 0px 25px;
+    opacity: 0.5;
+}
+.big-Circle1{
+    background-color: #232937;
+    width: 150px;
+    height: 150px;
+    border-radius: 50% ;
+    position: relative;
+    left: 70px;
+   top: -50px;
+}
+.big-Circle2{
+    background-color: #232937;
+    width: 150px;
+    height: 160px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60px;
+    right: 60px;
+   
+}
+.Chip{
+    background-color: white;
+    width: 40px;
+    height: 30px;
+    position: relative;
+    top: 22px;
+    left: 70px;
+    border-radius: 2px;
+    opacity: 0.3;
+}
+.card_Text{
+    position: relative;
+    top: 60px;
+    left: 10px;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+.card_Name{
+    font-size: 12px;
+    color: white;
+}
+.card_Number{
+    font-size: 8px;
+    color: white;
+    letter-spacing: 2px;
+}
